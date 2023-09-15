@@ -6,15 +6,21 @@ public class Main {
         ArrayLists list = new ArrayLists();
 
         arr.AddRandomNumbers();
+        list.AddNonPositiveNumbers();
+
+        System.out.println();
+        System.out.println("Выведите все элементы списка, которые больше предыдущего элемента этого же списка. ");
         System.out.println(arr.getArr());
         arr.InOrderMax();
-
         System.out.println();
-
-        list.AddNonPositiveNumbers();
+        System.out.println();
+        System.out.println("Выведите значение наименьшего из всех положительных элементов в списке.");
         System.out.println(list.getList());
-        System.out.println();
         list.InOrderMin();
+
+//
+//        arr.InOrderMax();
+//        list.InOrderMin();
 
 
     }

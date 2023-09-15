@@ -37,7 +37,7 @@ public class ArrayLists {
             }
         }
 
-        System.out.println(minNumber);
+        System.out.println("Result: " + minNumber);
     }
 
     public ArrayList<Integer> getArr() {
