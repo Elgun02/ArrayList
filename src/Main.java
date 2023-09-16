@@ -17,6 +17,5 @@ public class Main {
         System.out.println("Выведите значение наименьшего из всех положительных элементов в списке.");
         System.out.println(list.getList());
         list.InOrderMin();
-
     }
 }
