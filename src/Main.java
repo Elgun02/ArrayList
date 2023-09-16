@@ -18,10 +18,5 @@ public class Main {
         System.out.println(list.getList());
         list.InOrderMin();
 
-//
-//        arr.InOrderMax();
-//        list.InOrderMin();
-
-
     }
 }
